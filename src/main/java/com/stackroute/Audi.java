@@ -18,5 +18,11 @@ public class Audi extends Car {
     public void engine() {
         System.out.println(" audi engine started");
     }
+    public int boxing(){
+        Integer integer=new Integer(10);
+        int i=integer;
+        return i;
+
+    }
 }
 

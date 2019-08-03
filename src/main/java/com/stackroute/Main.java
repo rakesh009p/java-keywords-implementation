@@ -8,6 +8,7 @@ public class Main {
         //implementing methods by creating  objects
         Audi audi = new Audi("r8", "audi");
         audi.brakes();
+        System.out.println(audi.boxing());
         System.out.println(audi.getName());
         audi.engine();
         Car car = new Car("basic", "car");
