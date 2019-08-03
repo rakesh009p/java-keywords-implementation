@@ -9,5 +9,8 @@ public class Main {
         audi.engine();
         Car car = new Car("basic", "car");
         car.engine();
+        NestedClass.InnerNestedClass nested=new NestedClass.InnerNestedClass();
+        nested.Display();
+
     }
 }
