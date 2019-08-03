@@ -11,12 +11,12 @@ public class Main {
             }
         });
 
-        new Thread(()->{
-            System.out.println("Lambda");
-            System.out.println("Another Lambda");
-
-        }
-        ).start();
+//        new Thread(()->{
+//            System.out.println("Lambda");
+//            System.out.println("Another Lambda");
+//
+//        }
+//        ).start();
     }
 
     }
