@@ -6,6 +6,7 @@ public class InterfaceClass implements InterfaceDemo {
     @Override
     public int getNumber() {
         return 0;
+
     }
 
 
