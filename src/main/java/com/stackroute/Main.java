@@ -2,6 +2,7 @@ package com.stackroute;
 
 import com.stackroute.Interface.InterfaceClass;
 import com.stackroute.Interface.InterfaceDemo;
+import com.stackroute.exception.ExceptionDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +22,8 @@ public class Main {
         conversions.convertingIntToString();
         StringBuilderDemo stringBuilderDemo= new StringBuilderDemo();
         stringBuilderDemo.reverseString();
+        ExceptionDemo exceptionDemo= new ExceptionDemo();
+        exceptionDemo.exception();
 
     }
 }
